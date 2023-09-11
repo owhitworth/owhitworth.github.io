@@ -365,6 +365,15 @@ header1 .header-content1 .header-content-inner1 a {
 
 .navbar-default .navbar-header .navbar-brand {
     color: cadetblue;
+    display: flex;
+    align-items:flex-start;
+}
+
+.navbar-default .navbar-header .logo {
+    width: 20px; 
+    height: 30px; 
+    margin-right: 10px;
+    align-items:top;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
