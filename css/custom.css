@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/Landon.jpg');
+    background-image: url('../images/Heading2.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -108,7 +108,7 @@ header .header-content .header-content-inner a {
     
     header .header-content .header-content-inner h3 {
         font-size: 40px;
-        margin-left: 20px;
+        margin-left: 15px;
         }
 
     header .header-content .header-content-inner p {
@@ -128,7 +128,7 @@ header1 {
     height: 250px;
     text-align: center;
     color: #fff;
-    background-image: url('../images/xylophone.jpg');
+    background-image: url('../images/ukulele.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
