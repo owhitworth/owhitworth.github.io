@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: navy;
+    color: teal;
 }
 
 p {
@@ -58,6 +58,14 @@ header .header-content .header-content-inner h2 {
     font-weight: 300;
 }
 
+header .header-content .header-content-inner h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
@@ -97,12 +105,18 @@ header .header-content .header-content-inner a {
     header .header-content .header-content-inner h2 {
     	font-size: 80px;
 		}
+    
+    header .header-content .header-content-inner h3 {
+        font-size: 40px;
+        margin-left: 20px;
+        }
 
     header .header-content .header-content-inner p {
         margin-left: 67px;
         max-width: 80%;
         font-size: 18px;
-    }
+        }
+    
     header .header-content .header-content-inner a {
     	margin-left: 47px;
 		}
@@ -569,6 +583,16 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-lg {
     padding: 15px 30px;
+}
+
+@media (max-width:768px){
+    .col-sm-6 {
+        text-align: center; 
+    }
+
+    .col-sm-6 img {
+        margin-top: 20px; 
+    }
 }
 
 ::-moz-selection {
