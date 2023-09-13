@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/heading3.jpg');
+    background-image: url('../images/Heading4.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -118,7 +118,7 @@ header .header-content .header-content-inner a {
         }
     
     header .header-content .header-content-inner a {
-    	margin-left: 47px;
+    	margin-left: 57px;
 		}
 }
 
@@ -128,7 +128,7 @@ header1 {
     height: 250px;
     text-align: center;
     color: #fff;
-    background-image: url('../images/ukulele.jpg');
+    background-image: url('../images/boomwhackers.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,7 +258,7 @@ header1 .header-content1 .header-content-inner1 a {
     height: 100px;
     text-align: center;
     color: #fff;
-    background-image: url('../images/pencil_sharpener.jpg');
+    background-image: url('../images/ukulele.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,7 +282,7 @@ header1 .header-content1 .header-content-inner1 a {
         height: 200px;
         text-align: center;
         color: #fff;
-        background-image: url('../images/pencil_sharpener.jpg');
+        background-image: url('../images/ukulele.jpg');
         background-position: center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -625,3 +625,8 @@ img::-moz-selection {
     background-color: cadetblue;
 }
 
+.custom-glyphicon {
+  font-family: "Glyphicons Halflings"; /* Use Bootstrap's icon font */
+  font-size: 10px; /* Set the desired size */
+  color: #000; /* Set the desired color */
+}
