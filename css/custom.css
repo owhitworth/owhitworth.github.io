@@ -66,6 +66,14 @@ header .header-content .header-content-inner h3 {
     color: rgba(255,255,255,.7);
 }
 
+header .header-content .header-content-inner h4 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
@@ -107,6 +115,11 @@ header .header-content .header-content-inner a {
 		}
     
     header .header-content .header-content-inner h3 {
+        font-size: 40px;
+        margin-left: 15px;
+        }
+    
+    header .header-content .header-content-inner h4 {
         font-size: 40px;
         margin-left: 15px;
         }
@@ -158,6 +171,22 @@ header1 .header-content1 .header-content-inner1 h2 {
     font-weight: 300;
 }
 
+header1 .header-content .header-content-inner h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
+header1 .header-content .header-content-inner h4 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
 header1 .header-content1 .header-content-inner1 p {
     margin-bottom: 50px;
     font-size: 16px;
@@ -197,6 +226,17 @@ header1 .header-content1 .header-content-inner1 a {
     header1 .header-content1 .header-content-inner1 h2 {
     	font-size: 80px;
 		}
+    
+    header1 .header-content .header-content-inner h3 {
+        font-size: 40px;
+        margin-left: 15px;
+        }
+    
+    header1 .header-content .header-content-inner h4 {
+        font-weight: 300;
+        color: rgba(255,255,255,.7);
+        font-size: 40px;
+    }
 
     header1 .header-content1 .header-content-inner1 p {
         margin-left: 67px;
@@ -293,6 +333,7 @@ header1 .header-content1 .header-content-inner1 a {
 
 .promo,
 .promo h3,
+.promo h4,
 .promo a:link,
 .promo a:visited,
 .promo a:hover,
@@ -315,6 +356,12 @@ header1 .header-content1 .header-content-inner1 a {
 }
 
 .promo-item h3 {
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.promo-item h4 {
     font-size: 40px;
     display: inline-block;
     vertical-align: middle;
@@ -619,6 +666,10 @@ img::-moz-selection {
 
 .text-primary {
     color: cadetblue;
+}
+
+.text-bold {
+    font-weight: 400;
 }
 
 .bg-primary {
