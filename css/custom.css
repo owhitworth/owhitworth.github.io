@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/Heading5.png');
+    background-image: url('../images/Header2.0.png');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -40,22 +40,25 @@ header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px 70px;
-    text-align: left;
+    text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 25px;
-    margin-left: 20px;
     font-size: 50px;
     font-weight: 300;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
 }
 
 header .header-content .header-content-inner h2 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-align: center;
 }
 
 header .header-content .header-content-inner h3 {
@@ -106,12 +109,15 @@ header .header-content .header-content-inner a {
     }
 
 	header .header-content .header-content-inner h1 {
-    	margin-left: 50px;
         font-size: 100px;
+        font-family: 'Shadows Into Light Two', cursive;
+        text-align: center;
 		}
     
     header .header-content .header-content-inner h2 {
-    	font-size: 80px;
+    	font-size: 60px;
+        font-family: 'Shadows Into Light Two', cursive;
+        text-align: center;
 		}
     
     header .header-content .header-content-inner h3 {
@@ -131,7 +137,7 @@ header .header-content .header-content-inner a {
         }
     
     header .header-content .header-content-inner a {
-    	margin-left: 57px;
+    	margin-left: 0px;
 		}
 }
 
@@ -162,6 +168,7 @@ header1 .header-content1 .header-content-inner1 h1 {
     margin-left: 20px;
     font-size: 50px;
     font-weight: 300;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 header1 .header-content1 .header-content-inner1 h2 {
@@ -169,6 +176,7 @@ header1 .header-content1 .header-content-inner1 h2 {
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: 300;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 header1 .header-content .header-content-inner h3 {
@@ -221,10 +229,12 @@ header1 .header-content1 .header-content-inner1 a {
 	header1 .header-content1 .header-content-inner1 h1 {
     	margin-left: 50px;
         font-size: 100px;
+        font-family: 'Shadows Into Light Two', cursive;
 		}
     
     header1 .header-content1 .header-content-inner1 h2 {
     	font-size: 80px;
+        font-family: 'Shadows Into Light Two', cursive;
 		}
     
     header1 .header-content .header-content-inner h3 {

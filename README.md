@@ -1,6 +1,6 @@
 # Homeschool Music Literacy
 
-WELCOME TO HOMESCHOOL MUSIC LITERACY!
+WELCOME TO KODÁLY KIDS HOMESCHOOL MUSIC ACADEMY!
 We specialize in helping excited children learn music. True music education is unavailable to so many kids, and we want every child to have the opportunity to integrate music in their life.
 
 ## Description
