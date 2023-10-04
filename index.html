@@ -39,6 +39,30 @@ Although you can use them, for a more unique website, replace these images with 
     <!-- html meta tag-->
     <meta name="google-site-verification" content="f5yv27FNQzVxmJMvSLFZQ4Uh3fcVoalW7p6d0HW6HhU" />
     
+    <!-- logo scrolling behavior -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            var $navbar = $('.navbar-default');
+            var $logo = $navbar.find('.logo');
+            var $logoScrolled = $navbar.find('.logo-scrolled');
+        
+            if (scroll >= 100) { // Change 800 to your desired scroll position
+                $navbar.addClass('scrolled');
+                $logo.hide();
+                $logoScrolled.show();
+            } else {
+                $navbar.removeClass('scrolled');
+                $logo.show();
+                $logoScrolled.hide();
+            }
+        });
+    });
+    </script>
+
+    
 </head>
 
 <body>
@@ -55,7 +79,8 @@ Although you can use them, for a more unique website, replace these images with 
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img class=logo src="images/HomeschoolMusic%20logo.jpg" alt="Logo">
+                    <img class="logo-scrolled" src="images/HomeschoolMusic%20logo.jpg" alt="Default Logo">
+                    <img class="logo" src="images/HomeschoolMusic%20logo%20white.png" alt="Scrolled Logo">
                     <p>KodályKids</p>
                 </a>
             </div>
@@ -112,7 +137,7 @@ Although you can use them, for a more unique website, replace these images with 
                 </div>
                 <div class="col-sm-6">
                 	<h2 class="section-header">The Program</h2>
-                	<p class="lead text-muted">Homeschool Music is a Kodály-based music literacy program designed to get your child from zero to hero in just 12 weeks.</p>
+                	<p class="lead text-muted">Kodály Kids is a Kodály-based music literacy program designed to get your child from zero to hero in just 12 weeks.</p>
                 	<a href="program.html" class="btn btn-primary btn-lg">Learn More</a>
                 </div>                
                 

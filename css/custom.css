@@ -48,7 +48,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 25px;
     font-size: 50px;
     font-weight: 300;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', sans-serif;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ header .header-content .header-content-inner h2 {
     margin-bottom: 20px;
     font-size: 30px;
     font-weight: 300;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', sans-serif;
     text-align: center;
 }
 
@@ -110,13 +110,13 @@ header .header-content .header-content-inner a {
 
 	header .header-content .header-content-inner h1 {
         font-size: 100px;
-        font-family: 'Shadows Into Light Two', cursive;
+        font-family: 'Shadows Into Light Two', sans-serif;
         text-align: center;
 		}
     
     header .header-content .header-content-inner h2 {
     	font-size: 60px;
-        font-family: 'Shadows Into Light Two', cursive;
+        font-family: 'Shadows Into Light Two', sans-serif;
         text-align: center;
 		}
     
@@ -168,7 +168,7 @@ header1 .header-content1 .header-content-inner1 h1 {
     margin-left: 20px;
     font-size: 50px;
     font-weight: 300;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', sans-serif;
 }
 
 header1 .header-content1 .header-content-inner1 h2 {
@@ -176,7 +176,7 @@ header1 .header-content1 .header-content-inner1 h2 {
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: 300;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', sans-serif;
 }
 
 header1 .header-content .header-content-inner h3 {
@@ -229,12 +229,12 @@ header1 .header-content1 .header-content-inner1 a {
 	header1 .header-content1 .header-content-inner1 h1 {
     	margin-left: 50px;
         font-size: 100px;
-        font-family: 'Shadows Into Light Two', cursive;
+        font-family: 'Shadows Into Light Two', sans-serif;
 		}
     
     header1 .header-content1 .header-content-inner1 h2 {
     	font-size: 80px;
-        font-family: 'Shadows Into Light Two', cursive;
+        font-family: 'Shadows Into Light Two', sans-serif;
 		}
     
     header1 .header-content .header-content-inner h3 {
@@ -436,6 +436,7 @@ header1 .header-content1 .header-content-inner1 a {
 
 .navbar-default .navbar-header .navbar-brand {
     color: cadetblue;
+    font-family: 'Shadows Into Light Two', sans-serif;
     display: flex;
     align-items:flex-start;
 }
@@ -506,7 +507,7 @@ header1 .header-content1 .header-content-inner1 a {
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
-        letter-spacing: 0;
+        letter-spacing: 0.1em;
         color: cadetblue;
     }
 
@@ -523,6 +524,21 @@ header1 .header-content1 .header-content-inner1 a {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: cadetblue;
+    }
+    
+    .navbar-default .navbar-header .logo-scrolled {
+    display: none;
+    width: 25px; 
+    height: 30px; 
+    margin-right: 10px;
+    align-items:top;
+    }
+    
+    .navbar-default.scrolled {
+    /* Add styles for the scrolled state here */
+    border-color: #fff;
+    background-color: #fff;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -691,3 +707,4 @@ img::-moz-selection {
   font-size: 10px; /* Set the desired size */
   color: #000; /* Set the desired color */
 }
+
