@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
 <html lang="en">
 
 <head>
@@ -9,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="keywords" content="Homeschool Music, Homeschool music Academy, Kodaly Kids, Kodály Kids, Music literacy, 12 weeks, music literacy course, music course, semester music class, music class, homeschool class">
-    <meta name="description" content="The Kodaly Kids program. This is a 12 week music literacy program for Homeschool students to learn to read, write, and sing and play beginning music rhythms and melody patterns.">
+    <meta name="description" content="Get Started. This is a 12 week music literacy program for Homeschool students to learn to read, write, and sing and play beginning music rhythms and melody patterns.">
     
-    <title>Kodály Kids Homeschool Music Academy Program</title>
+    <title>Homeschool Music Academy Podcast</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +21,9 @@
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,88 +39,37 @@
     <!-- Custom Fonts from Google -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     
-    <!-- logo scrolling behavior -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-            var $navbar = $('.navbar-default');
-            var $logo = $navbar.find('.logo');
-            var $logoScrolled = $navbar.find('.logo-scrolled');
-        
-            if (scroll >= 100) { // Change 800 to your desired scroll position
-                $navbar.addClass('scrolled');
-                $logo.hide();
-                $logoScrolled.show();
-            } else {
-                $navbar.removeClass('scrolled');
-                $logo.show();
-                $logoScrolled.hide();
-            }
-        });
-    });
-    </script>
-    
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img class="logo-scrolled" src="images/HomeschoolMusic%20logo.jpg" alt="Default Logo">
-                    <img class="logo" src="images/HomeschoolMusic%20logo%20white.png" alt="Scrolled Logo">
-                    <p>KodályKids</p>
-                </a>
-            </div>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-						<a href="landingpage.html">Start Here</a>
-					</li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="program.html">Program</a>
-                    </li>
-                    <li>
-                        <a href="podcast.html">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="aboutme.html">About Me</a>
-                    </li>
-                </ul>
-                
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-    </nav>
+    <!--logo -->
+    <section class="divider3">
+            <a href="index.html">
+                    <img class="logo-landing" src="images/HomeschoolMusic%20logo.svg" alt="Default Logo">
+            </a>
+    </section>
 
-	<!-- Header -->
-    <header1>
-        <div class="header-content1">
-            <div class="header-content-inner1">
-                <h1>The Program</h1>
+	<!-- Content 1 -->
+    <header>
+        <section class="content content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h2 class="section-header">1. Sign Up for a Free Lesson</h2>
+                    <p class="lead text-muted">Pick a time on my calendar to talk to me! We will make sure that the Kodály Kids program is right for you. After a demo lesson (make sure to bring your student!), you'll get a chance to help me understand what you're expecting so we can hit the ground running!</p>
+                    <a href="https://calendly.com/owhitworth/lesson" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/owhitworth/lesson'});return false;" class="btn btn-primary btn-lg">Sign Up Now</a>
+                </div> 
+                <div class="col-sm-6">
+                    <img class="img-responsive center-block" src="images/signup2.jpg" alt="">
+                </div>              
             </div>
         </div>
-    </header1>
-    
-    <!-- divider -->
-    <section class="divider">
-    </section>
-    
-    <!-- Content 1 -->
-    <section class="content">
+        </section>
+    </header>
+
+	<!-- Content 2 -->
+         <section class="content">
         <div class="container">
             <p class="lead text-muted">I believe kids learn best with a solid curriculum, personal coaching, and parental involvement. With my help, YOU can help your child learn music. Let's get started! </p> 
             <a href="https://calendly.com/owhitworth/lesson" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/owhitworth/lesson'});return false;" class="btn btn-primary btn-lg">Sign Up Now</a>
@@ -124,6 +78,20 @@
         <div class="container">
             <h2 class="section-header">Curriculum</h2>
             <p class="lead text-muted">Kodály Kids is a 12-week beginner music course. You know what you're getting right from the start! At the end of 12 weeks, your child will be familiar with reading, writing, and singing pentatonic melodies and basic rhythmic patterns. Don't know what that means yet? That's okay! Each week we'll have a 45 minute lesson where you AND your child get to learn and play together with clear objectives and homework, so you don't have to wonder where to start when it's time to practice.</p>
+            <section class="content content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                	<h2 class="section-header">1. Sign Up for a Free Lesson</h2>
+                    <p class="lead text-muted">Pick a time on my calendar to talk to me! We will make sure that the Kodály Kids program is right for you. After a demo lesson (make sure to bring your student!), you'll get a chance to help me understand what you're expecting so we can hit the ground running!</p>
+                    <a href="https://calendly.com/owhitworth/lesson" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/owhitworth/lesson'});return false;" class="btn btn-primary btn-lg">Sign Up Now</a>
+                </div> 
+                <div class="col-sm-6">
+                    <img class="img-responsive center-block" src="images/signup2.jpg" alt="">
+                </div>              
+            </div>
+        </div>
+        </section>
             <p class="lead text-muted">This is a Kodály-based music curriculum. That means we'll learn music through singing and playing folk songs and games. Many cultures around the world have based their folk music off of the same musical sounds. Your child will learn to recognize and replicate these musical patterns as they build a strong musical foundation for future success. Not only that, kids LOVE these songs and games - that's why they've stuck around for so long!</p>
             <h2 class=section-header>Personal Coaching</h2>
             <p class="lead text-muted">You get virtual face-to-face lessons with an expert music educator from the comfort of your own home! I know music is something we practice all week long, so when you need help during the week I'm available too. As my student, you have daily access to a personal coach who can listen to you practice and demonstrate rhythms, melodies, and games so you don't miss a beat. Even though our 12 weeks together will have to end, you'll be added to my personal support group so you can keep your music skills sharp.</p>
@@ -132,25 +100,8 @@
             <a href="https://calendly.com/owhitworth/lesson" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/owhitworth/lesson'});return false;" class="btn btn-primary btn-lg">Sign Me Up</a>
         </div>    
     </section>
-            
-    <!-- divider 2-->
-    <section class="divider2">
-    </section>
-            
-    <!-- content 2-->
-    <section class="content">
-        <div class="container"> 
-            <h2 class="section-heading">FAQ</h2>
-            <p class="lead text-bold"> Can my older kids take the class too?</p>
-            <p class="lead text-muted">Sure! Even though this program is designed for k-3, get your whole family involved in the fun! Music is better together.</p>
-            <p class="lead text-bold">How much do I need to practice?</p>
-            <p class="lead text-muted">Just 15-20 minutes of music a day is plenty to develop a strong musical foundation. If you have enough time to watch a youtube video, you've got enough time to learn music!</p>
-            <p class="lead text-bold">How much does it cost?</p>
-            <p class="lead text-muted">I charge $30 a week for the lesson and asynchronous support and that can be paid monthly or in one lump sum ($360). Ask me about options for multiple children.</p>
-            <a href="https://calendly.com/owhitworth/lesson" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/owhitworth/lesson'});return false;" class="btn btn-primary btn-lg">Sign Up</a>
-        </div>
-    </section>
     
+    <!-- Footer -->
     <footer class="page-footer">
     
     	<!-- Contact Us -->

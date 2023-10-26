@@ -316,6 +316,12 @@ header1 .header-content1 .header-content-inner1 a {
     -o-background-size: cover;
 }
 
+.divider3 {
+	padding: 10px 0 40px;
+    color: #fff;
+    background-color: white;
+}
+
 @media(min-width:768px) {
     .divider {
         padding: 20px 0 20px;
@@ -338,6 +344,10 @@ header1 .header-content1 .header-content-inner1 a {
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
+    }
+    
+    .divider3 {
+	padding: 10px 0 40px;
     }
 }
 
@@ -691,6 +701,10 @@ img::-moz-selection {
     background: 0 0;
 }
 
+.text-left {
+    text-align: left
+}
+
 .text-primary {
     color: cadetblue;
 }
@@ -709,3 +723,7 @@ img::-moz-selection {
   color: #000; /* Set the desired color */
 }
 
+.logo-landing {
+    margin-left: 130px;
+    margin-top: 20px;
+}
