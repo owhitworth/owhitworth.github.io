@@ -5,6 +5,10 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+em, i {
+  font-style: italic;
+}
+
 a {
     color: cadetblue;
     -webkit-transition: all .35s;
